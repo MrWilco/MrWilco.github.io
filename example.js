@@ -1,4 +1,4 @@
-const ws = require('ws')
+import * as ws from 'ws';
 const server = new ws.WebSocketServer({port: 9000})
 
 server.on('connection', socket => {
