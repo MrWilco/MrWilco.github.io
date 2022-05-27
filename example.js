@@ -1,4 +1,4 @@
-import * as ws from 'ws';
+import * as ws from './node_modules/ws';
 const server = new ws.WebSocketServer({port: 9000})
 
 server.on('connection', socket => {
